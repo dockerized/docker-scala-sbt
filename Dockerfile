@@ -12,7 +12,7 @@ ENV SBT_VERSION 0.13.8
 
 RUN \
   apt-get update && \
-  apt-get install curl -y
+  apt-get install curl git wget -y
 
 # Install Scala
 RUN \
