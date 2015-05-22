@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM dockerfile/java:oracle-java8
+FROM xiocode/java:8
 
 ENV SCALA_VERSION 2.11.6
 ENV SBT_VERSION 0.13.8
